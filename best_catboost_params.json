@@ -1,0 +1,1 @@
+{"learning_rate": 0.04456327755140181, "grow_policy": "Lossguide", "depth": 4, "min_data_in_leaf": 11, "l2_leaf_reg": 2.2672533325987922, "random_strength": 2.5097445824764772, "n_estimators": 1718, "bootstrap_type": "Bernoulli", "subsample": 0.899385314250892, "task_type": "GPU", "early_stopping_rounds": 50}
