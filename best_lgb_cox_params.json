@@ -1,0 +1,1 @@
+{"num_leaves": 45, "max_depth": 6, "colsample_bytree": 0.20600595764592378, "subsample": 0.27401500563297526, "n_estimators": 693, "learning_rate": 0.010978123209269813, "min_child_samples": 59, "reg_alpha": 0.46521309995503474, "reg_lambda": 0.8587323852842691, "device": "gpu", "gpu_use_dp": true, "objective": "regression"}
