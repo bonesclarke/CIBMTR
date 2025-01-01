@@ -1,1 +1,1 @@
-{"iterations": 862, "learning_rate": 0.06615895538323391, "grow_policy": "Lossguide", "depth": 7, "l2_leaf_reg": 8.088198258311232, "min_data_in_leaf": 30, "rsm": 0.12305930267249815, "loss_function": "Cox", "use_best_model": false, "early_stopping_rounds": 100}
+{"iterations": 932, "learning_rate": 0.09637007690677883, "grow_policy": "Lossguide", "depth": 6, "l2_leaf_reg": 6.7834805666342355, "min_data_in_leaf": 44, "rsm": 0.11541605236740754, "loss_function": "Cox", "use_best_model": false, "early_stopping_rounds": 100}
