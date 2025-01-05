@@ -1,1 +1,1 @@
-{"num_leaves": 38, "max_depth": 7, "colsample_bytree": 0.24376106912612933, "subsample": 0.3487132214367398, "n_estimators": 626, "learning_rate": 0.011390740453197528, "min_child_samples": 41, "reg_alpha": 0.08718268275795613, "reg_lambda": 0.05934526984161911, "device": "gpu", "gpu_use_dp": true, "objective": "regression"}
+{"min_child_samples": 41, "learning_rate": 0.061942323887844736, "reg_lambda": 7.453459703925752, "reg_alpha": 0.04971354334359003, "num_leaves": 70, "max_depth": 8, "max_bin": 115, "device": "cpu", "objective": "regression"}
