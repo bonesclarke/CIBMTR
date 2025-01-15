@@ -1,1 +1,1 @@
-{"min_child_samples": 41, "learning_rate": 0.061942323887844736, "reg_lambda": 7.453459703925752, "reg_alpha": 0.04971354334359003, "num_leaves": 70, "max_depth": 8, "max_bin": 115, "device": "cpu", "objective": "regression"}
+{"min_child_samples": 41, "learning_rate": 0.047427837169059496, "reg_lambda": 9.256404960665146, "reg_alpha": 0.05127438126172515, "num_leaves": 59, "max_depth": 8, "max_bin": 124, "device": "cpu", "objective": "regression"}

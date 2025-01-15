@@ -1,1 +1,1 @@
-{"max_depth": 7, "colsample_bytree": 0.3086762365744495, "subsample": 0.9868819384956341, "n_estimators": 2810, "learning_rate": 0.013549777860376738, "min_child_weight": 56, "device": "cuda", "enable_categorical": true, "objective": "survival:cox", "eval_metric": "cox-nloglik"}
+{"max_depth": 6, "colsample_bytree": 0.39229509229809023, "subsample": 0.9842045479763109, "n_estimators": 3650, "learning_rate": 0.011797323486999443, "min_child_weight": 53, "device": "cuda", "enable_categorical": true, "objective": "survival:cox", "eval_metric": "cox-nloglik"}
