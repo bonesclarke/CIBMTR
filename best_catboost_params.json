@@ -1,1 +1,13 @@
-{"learning_rate": 0.012069191799314273, "grow_policy": "Depthwise", "depth": 8, "min_data_in_leaf": 21, "l2_leaf_reg": 1.8918573570002126, "random_strength": 4.632253518968906, "n_estimators": 860, "bootstrap_type": "Bernoulli", "subsample": 0.7158312735607544, "task_type": "GPU", "early_stopping_rounds": 50}
+{
+    "learning_rate": 0.04390676325234987,
+    "grow_policy": "Lossguide",
+    "depth": 9,
+    "min_data_in_leaf": 10,
+    "l2_leaf_reg": 8.191483103921042,
+    "random_strength": 5.99799160778275,
+    "n_estimators": 1496,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.9587885261942896,
+    "task_type": "GPU",
+    "early_stopping_rounds": 50
+}
