@@ -15,7 +15,7 @@
         },
         {
             "Feature": "year_hct",
-            "Importance": 2.9732978059561432
+            "Importance": 2.965754030074649
         },
         {
             "Feature": "sex_match",
@@ -119,7 +119,7 @@
         },
         {
             "Feature": "donor_age",
-            "Importance": 0.7191045148649545
+            "Importance": 0.7241646885165524
         },
         {
             "Feature": "dri_comorbidity_x_clinical_status_score",
@@ -190,6 +190,10 @@
             "Importance": 0.5045796690966051
         },
         {
+            "Feature": "pre_post_2015",
+            "Importance": 0.5028880649547427
+        },
+        {
             "Feature": "dri_numeric_x_dri_age",
             "Importance": 0.5013034693319501
         },
@@ -198,16 +202,12 @@
             "Importance": 0.496637064335943
         },
         {
-            "Feature": "pre_post_2015",
-            "Importance": 0.49534428907324823
-        },
-        {
             "Feature": "drb1_dqb1_ratio",
             "Importance": 0.49173204229780076
         },
         {
             "Feature": "clinical_status_score",
-            "Importance": 0.4893506449344261
+            "Importance": 0.4882296021487843
         },
         {
             "Feature": "conditioning_intensity_donor_age_bin",
@@ -290,10 +290,6 @@
             "Importance": 0.3651307410932045
         },
         {
-            "Feature": "age_at_hct_x_karnofsky_score",
-            "Importance": 0.3623841781607192
-        },
-        {
             "Feature": "drb1_dqb1_diff",
             "Importance": 0.356869365412153
         },
@@ -312,6 +308,10 @@
         {
             "Feature": "hla_std",
             "Importance": 0.34756737347395716
+        },
+        {
+            "Feature": "age_at_hct_x_karnofsky_score",
+            "Importance": 0.3460601951082026
         },
         {
             "Feature": "comorbidity_score_x_clinical_status_score",
@@ -603,7 +603,7 @@
         },
         {
             "Feature": "clinical_status_score_x_dri_quantile",
-            "Importance": 0.15151173766652967
+            "Importance": 0.1526327804521714
         },
         {
             "Feature": "dri_comorbidity_x_conditioning_intensity_numeric",
@@ -663,11 +663,7 @@
         },
         {
             "Feature": "primary_agent",
-            "Importance": 0.10618807087756493
-        },
-        {
-            "Feature": "has_FK",
-            "Importance": 0.10594549534182782
+            "Importance": 0.11132286828307604
         },
         {
             "Feature": "hla_match_b_low",
@@ -676,6 +672,10 @@
         {
             "Feature": "tbi_status",
             "Importance": 0.10389732161549668
+        },
+        {
+            "Feature": "has_FK",
+            "Importance": 0.10081069793631672
         },
         {
             "Feature": "graft_risk_interaction",
@@ -688,10 +688,6 @@
         {
             "Feature": "comorbidity_score_x_treatment_intensity",
             "Importance": 0.09771187453617236
-        },
-        {
-            "Feature": "donor_age_squared",
-            "Importance": 0.09655657024507382
         },
         {
             "Feature": "dqb1_low_interaction",
@@ -712,6 +708,10 @@
         {
             "Feature": "risk_score_dri_weighted",
             "Importance": 0.09251211307785123
+        },
+        {
+            "Feature": "donor_age_squared",
+            "Importance": 0.09149639659347594
         },
         {
             "Feature": "hla_match_drb1_high",
@@ -756,6 +756,10 @@
         {
             "Feature": "hla_match_dqb1_mean",
             "Importance": 0.07174992667880564
+        },
+        {
+            "Feature": "karnofsky_age_at_hct",
+            "Importance": 0.07174314980749356
         },
         {
             "Feature": "cmv_donor",
@@ -816,10 +820,6 @@
         {
             "Feature": "is_standard_approach",
             "Importance": 0.056848683666626855
-        },
-        {
-            "Feature": "karnofsky_age_at_hct",
-            "Importance": 0.05541916675497688
         },
         {
             "Feature": "condition_severity",
