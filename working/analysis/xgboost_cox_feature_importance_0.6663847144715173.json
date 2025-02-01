@@ -1,0 +1,1277 @@
+{
+    "score": 0.6663847144715173,
+    "feature_importance": [
+        {
+            "Feature": "dri_comorbidity",
+            "Importance": 0.020487263798713684
+        },
+        {
+            "Feature": "karnofsky_clinical_status_squared_fn",
+            "Importance": 0.019569015130400658
+        },
+        {
+            "Feature": "conditioning_group",
+            "Importance": 0.015965431928634644
+        },
+        {
+            "Feature": "karnofsky_score_x_clinical_status_score",
+            "Importance": 0.01454879716038704
+        },
+        {
+            "Feature": "conditioning_intensity",
+            "Importance": 0.012217195704579353
+        },
+        {
+            "Feature": "conditioning_intensity_age_bin",
+            "Importance": 0.010275721549987793
+        },
+        {
+            "Feature": "clinical_status_score",
+            "Importance": 0.009730709716677666
+        },
+        {
+            "Feature": "conditioning_intensity_year",
+            "Importance": 0.0086543383076787
+        },
+        {
+            "Feature": "conditioning_intensity_prim_disease",
+            "Importance": 0.008429870940744877
+        },
+        {
+            "Feature": "comorbidity_score_x_dri_numeric",
+            "Importance": 0.007552592549473047
+        },
+        {
+            "Feature": "dri_comorbidity_squared",
+            "Importance": 0.006938831880688667
+        },
+        {
+            "Feature": "comorbidity_score_x_dri_quantile",
+            "Importance": 0.006055235397070646
+        },
+        {
+            "Feature": "dri_comorbidity_x_clinical_status_score",
+            "Importance": 0.005872008390724659
+        },
+        {
+            "Feature": "clinical_status_score_squared",
+            "Importance": 0.005404183641076088
+        },
+        {
+            "Feature": "pulm_severe",
+            "Importance": 0.005204678047448397
+        },
+        {
+            "Feature": "cyto_score_detail",
+            "Importance": 0.0050344145856797695
+        },
+        {
+            "Feature": "clinical_status_score_year",
+            "Importance": 0.004891133401542902
+        },
+        {
+            "Feature": "conditioning_intensity_karnofsky",
+            "Importance": 0.004794608801603317
+        },
+        {
+            "Feature": "cardiac",
+            "Importance": 0.004711988847702742
+        },
+        {
+            "Feature": "sex_match_graft_cmv_status",
+            "Importance": 0.0045628976076841354
+        },
+        {
+            "Feature": "disease_control_factor_x_dri_quantile",
+            "Importance": 0.004363999702036381
+        },
+        {
+            "Feature": "karnofsky_below_70",
+            "Importance": 0.004337295889854431
+        },
+        {
+            "Feature": "conditioning_intensity_gvhd_proph",
+            "Importance": 0.0043184892274439335
+        },
+        {
+            "Feature": "sex_match",
+            "Importance": 0.004238261375576258
+        },
+        {
+            "Feature": "dri_comorbidity_disease_control_fn",
+            "Importance": 0.004209920763969421
+        },
+        {
+            "Feature": "comorbidity_score_x_clinical_status_score",
+            "Importance": 0.004194288514554501
+        },
+        {
+            "Feature": "dri_comorbidity_fn",
+            "Importance": 0.004034196026623249
+        },
+        {
+            "Feature": "graft_prim_disease",
+            "Importance": 0.003951310645788908
+        },
+        {
+            "Feature": "year_hct",
+            "Importance": 0.0039413911290466785
+        },
+        {
+            "Feature": "dri_numeric_x_dri_comorbidity",
+            "Importance": 0.003919606562703848
+        },
+        {
+            "Feature": "transplant_era",
+            "Importance": 0.003793928539380431
+        },
+        {
+            "Feature": "drb1_dqb1_diff",
+            "Importance": 0.0037853235844522715
+        },
+        {
+            "Feature": "comorbidity_score_x_dri_comorbidity",
+            "Importance": 0.0037514048162847757
+        },
+        {
+            "Feature": "hla_match_b_low",
+            "Importance": 0.0037347348406910896
+        },
+        {
+            "Feature": "optimal_conditioning",
+            "Importance": 0.003720403416082263
+        },
+        {
+            "Feature": "karnofsky_category",
+            "Importance": 0.003673083148896694
+        },
+        {
+            "Feature": "drb1_dqb1_ratio",
+            "Importance": 0.0036721767392009497
+        },
+        {
+            "Feature": "karnofsky_above_80",
+            "Importance": 0.0036511654034256935
+        },
+        {
+            "Feature": "cyto_age",
+            "Importance": 0.0036172778345644474
+        },
+        {
+            "Feature": "conditioning_intensity_cyto",
+            "Importance": 0.0035698225256055593
+        },
+        {
+            "Feature": "has_FK",
+            "Importance": 0.0035498973447829485
+        },
+        {
+            "Feature": "years_since_2008",
+            "Importance": 0.0035456151235848665
+        },
+        {
+            "Feature": "conditioning_intensity_donor_age_bin",
+            "Importance": 0.0035249926149845123
+        },
+        {
+            "Feature": "age_bin_race_high_risk",
+            "Importance": 0.0035031000152230263
+        },
+        {
+            "Feature": "age_bin_race",
+            "Importance": 0.003487494308501482
+        },
+        {
+            "Feature": "dri_num_comorbidity_fn",
+            "Importance": 0.0034823508467525244
+        },
+        {
+            "Feature": "cmv_status_gvhd_proph",
+            "Importance": 0.0034495675936341286
+        },
+        {
+            "Feature": "hla_match_a_high",
+            "Importance": 0.003426982555538416
+        },
+        {
+            "Feature": "vivo_prim_disease_sex_match",
+            "Importance": 0.003404329065233469
+        },
+        {
+            "Feature": "dri_numeric_x_disease_control_factor",
+            "Importance": 0.003401564434170723
+        },
+        {
+            "Feature": "prim_disease_hct",
+            "Importance": 0.003399255219846964
+        },
+        {
+            "Feature": "tbi_status",
+            "Importance": 0.003395381150767207
+        },
+        {
+            "Feature": "clinical_status_score_x_dri_quantile",
+            "Importance": 0.0033629415556788445
+        },
+        {
+            "Feature": "vivo_prim_disease",
+            "Importance": 0.0032764512579888105
+        },
+        {
+            "Feature": "hla_match_drb1_mean",
+            "Importance": 0.0032733057159930468
+        },
+        {
+            "Feature": "conditioning_intensity_mrd_hct",
+            "Importance": 0.0032689652871340513
+        },
+        {
+            "Feature": "sex_match_cyto_age",
+            "Importance": 0.003258852753788233
+        },
+        {
+            "Feature": "hepatic_severe",
+            "Importance": 0.0032559556420892477
+        },
+        {
+            "Feature": "donor_age_bin_related",
+            "Importance": 0.0032556455116719007
+        },
+        {
+            "Feature": "karnofsky_standardized",
+            "Importance": 0.003248657798394561
+        },
+        {
+            "Feature": "disease_status_group",
+            "Importance": 0.003248626599088311
+        },
+        {
+            "Feature": "dcf_ci_css_fn3",
+            "Importance": 0.003242198610678315
+        },
+        {
+            "Feature": "vivo_age_bin",
+            "Importance": 0.0032141765113919973
+        },
+        {
+            "Feature": "conditioning_intensity_race_group",
+            "Importance": 0.0032104025594890118
+        },
+        {
+            "Feature": "comorbidity_score_squared",
+            "Importance": 0.00321010104380548
+        },
+        {
+            "Feature": "cmv_status_conditioning_intensity",
+            "Importance": 0.003207531524822116
+        },
+        {
+            "Feature": "age_bin_pulm_severe",
+            "Importance": 0.003192993113771081
+        },
+        {
+            "Feature": "dri_disease_status",
+            "Importance": 0.00316010694950819
+        },
+        {
+            "Feature": "with_tbi",
+            "Importance": 0.003152762074023485
+        },
+        {
+            "Feature": "conditioning_intensity_tbi",
+            "Importance": 0.003142540343105793
+        },
+        {
+            "Feature": "year_clinical_status_score",
+            "Importance": 0.003139331005513668
+        },
+        {
+            "Feature": "hla_match_drb1_high",
+            "Importance": 0.0031317758839577436
+        },
+        {
+            "Feature": "comorbidity_score_x_conditioning_intensity_numeric",
+            "Importance": 0.003125362331047654
+        },
+        {
+            "Feature": "graft_risk_interaction",
+            "Importance": 0.003124692477285862
+        },
+        {
+            "Feature": "compatibility_score_x_dri_comorbidity",
+            "Importance": 0.0031159010250121355
+        },
+        {
+            "Feature": "mrd_hct",
+            "Importance": 0.0031140251085162163
+        },
+        {
+            "Feature": "dri_karnofsky",
+            "Importance": 0.0031136679463088512
+        },
+        {
+            "Feature": "psych_disturb",
+            "Importance": 0.0031028585508465767
+        },
+        {
+            "Feature": "karnofsky_score_x_dri_comorbidity",
+            "Importance": 0.003095211461186409
+        },
+        {
+            "Feature": "age_bin_to_donor_age_bin",
+            "Importance": 0.0030845876317471266
+        },
+        {
+            "Feature": "dri_age_x_dri_comorbidity",
+            "Importance": 0.00307630212046206
+        },
+        {
+            "Feature": "comorbidity_score_x_dri_age",
+            "Importance": 0.0030742038507014513
+        },
+        {
+            "Feature": "disease_status_risk_score",
+            "Importance": 0.003074171720072627
+        },
+        {
+            "Feature": "obesity",
+            "Importance": 0.003073609434068203
+        },
+        {
+            "Feature": "graft_cmv_status",
+            "Importance": 0.0030418098904192448
+        },
+        {
+            "Feature": "dri_numeric_x_clinical_status_score",
+            "Importance": 0.0030216544400900602
+        },
+        {
+            "Feature": "dri_numeric_x_treatment_intensity",
+            "Importance": 0.003019144060090184
+        },
+        {
+            "Feature": "graft_dri",
+            "Importance": 0.003012602450326085
+        },
+        {
+            "Feature": "vent_hist",
+            "Importance": 0.0030114343389868736
+        },
+        {
+            "Feature": "age_at_hct_x_clinical_status_score",
+            "Importance": 0.003006973071023822
+        },
+        {
+            "Feature": "rituximab_given_gvhd",
+            "Importance": 0.0030026568565517664
+        },
+        {
+            "Feature": "cmv_recipient",
+            "Importance": 0.003001763252541423
+        },
+        {
+            "Feature": "hla_match_weighted",
+            "Importance": 0.0029993841890245676
+        },
+        {
+            "Feature": "diabetes",
+            "Importance": 0.0029955655336380005
+        },
+        {
+            "Feature": "dri_comorbidity_x_conditioning_intensity_numeric",
+            "Importance": 0.002976164221763611
+        },
+        {
+            "Feature": "age_bin_ethnicity",
+            "Importance": 0.0029756994917988777
+        },
+        {
+            "Feature": "age_clinical_status_year_fn",
+            "Importance": 0.002972658956423402
+        },
+        {
+            "Feature": "hla_low_res_8",
+            "Importance": 0.002969305729493499
+        },
+        {
+            "Feature": "age_bin_dri",
+            "Importance": 0.002968817949295044
+        },
+        {
+            "Feature": "hla_ratio_res_lowhigh",
+            "Importance": 0.0029685101471841335
+        },
+        {
+            "Feature": "dri_score_grouped",
+            "Importance": 0.002955277683213353
+        },
+        {
+            "Feature": "high_low_diff",
+            "Importance": 0.00295023201033473
+        },
+        {
+            "Feature": "gvhd_proph",
+            "Importance": 0.002939621452242136
+        },
+        {
+            "Feature": "graft_prod",
+            "Importance": 0.0029376097954809666
+        },
+        {
+            "Feature": "disease_control_factor",
+            "Importance": 0.002934106858447194
+        },
+        {
+            "Feature": "multiple_conditions",
+            "Importance": 0.0029328055679798126
+        },
+        {
+            "Feature": "donor_age_x_dri_comorbidity",
+            "Importance": 0.0029318786691874266
+        },
+        {
+            "Feature": "cyto_score",
+            "Importance": 0.002929254435002804
+        },
+        {
+            "Feature": "comorbidity_dri_comorbidity_fn",
+            "Importance": 0.002927331021055579
+        },
+        {
+            "Feature": "compatibility_dri_comorbidity_fn",
+            "Importance": 0.002924448810517788
+        },
+        {
+            "Feature": "is_standard_approach",
+            "Importance": 0.0029225361067801714
+        },
+        {
+            "Feature": "karnofsky_score_x_conditioning_intensity_numeric",
+            "Importance": 0.002920313272625208
+        },
+        {
+            "Feature": "clinical_status_score_x_conditioning_intensity_numeric",
+            "Importance": 0.002919297432526946
+        },
+        {
+            "Feature": "rituximab",
+            "Importance": 0.0029158282559365034
+        },
+        {
+            "Feature": "age_bin_high_risk",
+            "Importance": 0.0029032165184617043
+        },
+        {
+            "Feature": "dri_score",
+            "Importance": 0.002901726635172963
+        },
+        {
+            "Feature": "renal_issue",
+            "Importance": 0.0028972383588552475
+        },
+        {
+            "Feature": "conditioning_intensity_numeric",
+            "Importance": 0.0028954409062862396
+        },
+        {
+            "Feature": "vivo_comorbidity",
+            "Importance": 0.002892472315579653
+        },
+        {
+            "Feature": "conditioning_intensity_karn_clinical",
+            "Importance": 0.002887318143621087
+        },
+        {
+            "Feature": "comorbidity_quantile",
+            "Importance": 0.0028858089353889227
+        },
+        {
+            "Feature": "dri_comorbidity_disease_control_fn2",
+            "Importance": 0.0028825511690229177
+        },
+        {
+            "Feature": "hla_nmdp_6",
+            "Importance": 0.0028795311227440834
+        },
+        {
+            "Feature": "age_bin",
+            "Importance": 0.0028583500534296036
+        },
+        {
+            "Feature": "dcf_ci_css_fn2",
+            "Importance": 0.002857665065675974
+        },
+        {
+            "Feature": "treatment_intensity_x_dri_comorbidity",
+            "Importance": 0.002855646191164851
+        },
+        {
+            "Feature": "comorbidity_score",
+            "Importance": 0.002854167250916362
+        },
+        {
+            "Feature": "comorbidity_treatment_intensity_fn",
+            "Importance": 0.0028514850419014692
+        },
+        {
+            "Feature": "condition_severity",
+            "Importance": 0.002839154563844204
+        },
+        {
+            "Feature": "donor_age_x_clinical_status_score",
+            "Importance": 0.002838527550920844
+        },
+        {
+            "Feature": "arrhythmia",
+            "Importance": 0.002833253936842084
+        },
+        {
+            "Feature": "has_CSA",
+            "Importance": 0.002829900709912181
+        },
+        {
+            "Feature": "risk_depletion_category",
+            "Importance": 0.002826799638569355
+        },
+        {
+            "Feature": "race_group",
+            "Importance": 0.002811754122376442
+        },
+        {
+            "Feature": "karnofsky_score_squared",
+            "Importance": 0.0028098581824451685
+        },
+        {
+            "Feature": "karnofsky_score_x_disease_control_factor",
+            "Importance": 0.002809078898280859
+        },
+        {
+            "Feature": "dri_comorbidity_x_dri_quantile",
+            "Importance": 0.0028089231345802546
+        },
+        {
+            "Feature": "immune_burden",
+            "Importance": 0.002807232551276684
+        },
+        {
+            "Feature": "dri_age_x_dri_quantile",
+            "Importance": 0.0027860088739544153
+        },
+        {
+            "Feature": "donor_age_bin",
+            "Importance": 0.002785750199109316
+        },
+        {
+            "Feature": "dcf_ci_css_fn",
+            "Importance": 0.002783186035230756
+        },
+        {
+            "Feature": "karnofsky_score_x_dri_numeric",
+            "Importance": 0.002782594645395875
+        },
+        {
+            "Feature": "age_bin_risk_score",
+            "Importance": 0.0027781021781265736
+        },
+        {
+            "Feature": "hla_match_b_high",
+            "Importance": 0.00277280667796731
+        },
+        {
+            "Feature": "treatment_intensity_x_disease_control_factor",
+            "Importance": 0.0027703645173460245
+        },
+        {
+            "Feature": "comorbidity_score_x_karnofsky_score",
+            "Importance": 0.0027639311738312244
+        },
+        {
+            "Feature": "karnofsky_weighted_performance",
+            "Importance": 0.0027620678301900625
+        },
+        {
+            "Feature": "karnofsky_compatibility_fn",
+            "Importance": 0.002760989358648658
+        },
+        {
+            "Feature": "age_dri_age_fn",
+            "Importance": 0.002760479459539056
+        },
+        {
+            "Feature": "n_agents",
+            "Importance": 0.0027531844098120928
+        },
+        {
+            "Feature": "disease_control_factor_squared",
+            "Importance": 0.002752171130850911
+        },
+        {
+            "Feature": "comorbidity_score_x_treatment_intensity",
+            "Importance": 0.0027515962719917297
+        },
+        {
+            "Feature": "dri_ethnicity",
+            "Importance": 0.0027448853943496943
+        },
+        {
+            "Feature": "karnofsky_dri_fn",
+            "Importance": 0.002741522854194045
+        },
+        {
+            "Feature": "primary_agent",
+            "Importance": 0.002741454401984811
+        },
+        {
+            "Feature": "dri_num_compatibility_fn",
+            "Importance": 0.002740571741014719
+        },
+        {
+            "Feature": "comorbidity_dri_numeric_fn",
+            "Importance": 0.0027402162086218596
+        },
+        {
+            "Feature": "karnofsky_treatment_intensity_fn",
+            "Importance": 0.0027336026541888714
+        },
+        {
+            "Feature": "compatibility_score_x_clinical_status_score",
+            "Importance": 0.0027318503707647324
+        },
+        {
+            "Feature": "disease_control_factor_x_clinical_status_score",
+            "Importance": 0.0027291818987578154
+        },
+        {
+            "Feature": "donor_related",
+            "Importance": 0.002728298306465149
+        },
+        {
+            "Feature": "has_cyclophosphamide",
+            "Importance": 0.0027279015630483627
+        },
+        {
+            "Feature": "hla_match_a_low",
+            "Importance": 0.002727327635511756
+        },
+        {
+            "Feature": "disease_control_factor_x_conditioning_intensity_numeric",
+            "Importance": 0.0027233841829001904
+        },
+        {
+            "Feature": "donor_age_x_conditioning_intensity_numeric",
+            "Importance": 0.002721003256738186
+        },
+        {
+            "Feature": "dri_age_x_clinical_status_score",
+            "Importance": 0.0027201715856790543
+        },
+        {
+            "Feature": "comorbidity_dri_age_fn",
+            "Importance": 0.0027192849665880203
+        },
+        {
+            "Feature": "donor_age_x_dri_numeric",
+            "Importance": 0.002718891017138958
+        },
+        {
+            "Feature": "hla_match_c_high",
+            "Importance": 0.0027161205653101206
+        },
+        {
+            "Feature": "ethnicity_vivo",
+            "Importance": 0.0027095291297882795
+        },
+        {
+            "Feature": "has_MMF",
+            "Importance": 0.0027066387701779604
+        },
+        {
+            "Feature": "karnofsky_clinical_status_fn",
+            "Importance": 0.002704379614442587
+        },
+        {
+            "Feature": "hla_high_res_mean",
+            "Importance": 0.0027005248703062534
+        },
+        {
+            "Feature": "dri_age_x_disease_control_factor",
+            "Importance": 0.0026996659580618143
+        },
+        {
+            "Feature": "comorbidity_score_x_compatibility_score",
+            "Importance": 0.0026972079649567604
+        },
+        {
+            "Feature": "dri_age_x_conditioning_intensity_numeric",
+            "Importance": 0.002694826340302825
+        },
+        {
+            "Feature": "tce_imm_match",
+            "Importance": 0.002694431459531188
+        },
+        {
+            "Feature": "age_at_hct_x_conditioning_intensity_numeric",
+            "Importance": 0.0026942233089357615
+        },
+        {
+            "Feature": "age_at_hct_x_dri_comorbidity",
+            "Importance": 0.0026929329615086317
+        },
+        {
+            "Feature": "treatment_intensity_x_clinical_status_score",
+            "Importance": 0.0026895496994256973
+        },
+        {
+            "Feature": "dcf_ci_css_fn4",
+            "Importance": 0.0026862244121730328
+        },
+        {
+            "Feature": "age_comorbidity_interaction",
+            "Importance": 0.002685014856979251
+        },
+        {
+            "Feature": "karnofsky_dri_comorbidity_fn",
+            "Importance": 0.0026844392996281385
+        },
+        {
+            "Feature": "age_at_hct_x_dri_quantile",
+            "Importance": 0.0026841345243155956
+        },
+        {
+            "Feature": "comorbidity_score_x_disease_control_factor",
+            "Importance": 0.002674611983820796
+        },
+        {
+            "Feature": "hla_low_res_10",
+            "Importance": 0.0026738541200757027
+        },
+        {
+            "Feature": "hla_low_res_mean",
+            "Importance": 0.0026715921703726053
+        },
+        {
+            "Feature": "age_at_hct_x_disease_control_factor",
+            "Importance": 0.0026689425576478243
+        },
+        {
+            "Feature": "donor_age_x_treatment_intensity",
+            "Importance": 0.0026666829362511635
+        },
+        {
+            "Feature": "risk_score_dri_weighted",
+            "Importance": 0.0026611376088112593
+        },
+        {
+            "Feature": "karnofsky_score_x_donor_age",
+            "Importance": 0.00265305838547647
+        },
+        {
+            "Feature": "dri_numeric_squared",
+            "Importance": 0.002652631839737296
+        },
+        {
+            "Feature": "age_treatment_intensity_fn",
+            "Importance": 0.0026439649518579245
+        },
+        {
+            "Feature": "pulm_moderate",
+            "Importance": 0.002640439895913005
+        },
+        {
+            "Feature": "hepatic_mild",
+            "Importance": 0.0026394242886453867
+        },
+        {
+            "Feature": "treatment_intensity_dri_age_fn",
+            "Importance": 0.0026348538231104612
+        },
+        {
+            "Feature": "tce_div_match",
+            "Importance": 0.0026330251712352037
+        },
+        {
+            "Feature": "comorbidity_karnofsky_fn",
+            "Importance": 0.0026324267964810133
+        },
+        {
+            "Feature": "donor_age_squared",
+            "Importance": 0.0026300810277462006
+        },
+        {
+            "Feature": "risk_score_equal",
+            "Importance": 0.0026252674870193005
+        },
+        {
+            "Feature": "karnofsky_score_x_compatibility_score",
+            "Importance": 0.002620951272547245
+        },
+        {
+            "Feature": "hla_match_drb1_low",
+            "Importance": 0.0026195489335805178
+        },
+        {
+            "Feature": "comorbidity_score_x_donor_age",
+            "Importance": 0.0026186297181993723
+        },
+        {
+            "Feature": "treatment_intensity_dri_comorbidity_fn",
+            "Importance": 0.0026170399505645037
+        },
+        {
+            "Feature": "hla_max",
+            "Importance": 0.002616022014990449
+        },
+        {
+            "Feature": "karnofsky_dri_age_fn",
+            "Importance": 0.0026148641481995583
+        },
+        {
+            "Feature": "karnofsky_score_x_dri_quantile",
+            "Importance": 0.0026109451428055763
+        },
+        {
+            "Feature": "donor_age",
+            "Importance": 0.002608516486361623
+        },
+        {
+            "Feature": "donor_age_x_dri_age",
+            "Importance": 0.0026062699034810066
+        },
+        {
+            "Feature": "age_at_hct_x_donor_age",
+            "Importance": 0.002605771878734231
+        },
+        {
+            "Feature": "ethnicity",
+            "Importance": 0.0026036377530544996
+        },
+        {
+            "Feature": "age_at_hct_x_karnofsky_score",
+            "Importance": 0.002599649364128709
+        },
+        {
+            "Feature": "age_at_hct_x_comorbidity_score",
+            "Importance": 0.00259416620247066
+        },
+        {
+            "Feature": "hla_match_total",
+            "Importance": 0.0025910083204507828
+        },
+        {
+            "Feature": "clinical_status_score_intensity",
+            "Importance": 0.002590358490124345
+        },
+        {
+            "Feature": "compatibility_score",
+            "Importance": 0.002590148476883769
+        },
+        {
+            "Feature": "hla_ratio_res_highlow",
+            "Importance": 0.0025870846584439278
+        },
+        {
+            "Feature": "dri_numeric_x_conditioning_intensity_numeric",
+            "Importance": 0.0025865607894957066
+        },
+        {
+            "Feature": "treatment_intensity_x_dri_age",
+            "Importance": 0.0025834240950644016
+        },
+        {
+            "Feature": "dri_numeric_x_compatibility_score",
+            "Importance": 0.0025816739071160555
+        },
+        {
+            "Feature": "weighted_risk_score",
+            "Importance": 0.0025808713398873806
+        },
+        {
+            "Feature": "cmv_status",
+            "Importance": 0.0025803803000599146
+        },
+        {
+            "Feature": "prior_tumor",
+            "Importance": 0.002573984442278743
+        },
+        {
+            "Feature": "drb1_high_interaction",
+            "Importance": 0.0025732386857271194
+        },
+        {
+            "Feature": "age_dri_fn",
+            "Importance": 0.002569805830717087
+        },
+        {
+            "Feature": "dri_numeric_x_dri_quantile",
+            "Importance": 0.0025697839446365833
+        },
+        {
+            "Feature": "combined_risk_score",
+            "Importance": 0.002569493604823947
+        },
+        {
+            "Feature": "age_karnofsky_fn",
+            "Importance": 0.0025688791647553444
+        },
+        {
+            "Feature": "hla_mean",
+            "Importance": 0.0025686270091682673
+        },
+        {
+            "Feature": "melphalan_dose",
+            "Importance": 0.0025633182376623154
+        },
+        {
+            "Feature": "dri_quantile_x_conditioning_intensity_numeric",
+            "Importance": 0.002563267247751355
+        },
+        {
+            "Feature": "compatibility_score_x_dri_age",
+            "Importance": 0.002562097739428282
+        },
+        {
+            "Feature": "peptic_ulcer",
+            "Importance": 0.0025619778316468
+        },
+        {
+            "Feature": "in_vivo_tcd",
+            "Importance": 0.0025590676814317703
+        },
+        {
+            "Feature": "dri_age_squared",
+            "Importance": 0.0025583961978554726
+        },
+        {
+            "Feature": "prod_type",
+            "Importance": 0.0025572585873305798
+        },
+        {
+            "Feature": "karnofsky_age_at_hct",
+            "Importance": 0.0025569323915988207
+        },
+        {
+            "Feature": "age_risk_group",
+            "Importance": 0.0025528068654239178
+        },
+        {
+            "Feature": "karnofsky_hla_interaction",
+            "Importance": 0.002548907184973359
+        },
+        {
+            "Feature": "donor_age_x_compatibility_score",
+            "Importance": 0.002540523884817958
+        },
+        {
+            "Feature": "dri_age",
+            "Importance": 0.0025382309686392546
+        },
+        {
+            "Feature": "age_at_hct_x_dri_age",
+            "Importance": 0.0025343424640595913
+        },
+        {
+            "Feature": "age_at_hct_x_compatibility_score",
+            "Importance": 0.0025326681789010763
+        },
+        {
+            "Feature": "comorbidity_compatibility_fn",
+            "Importance": 0.0025316718965768814
+        },
+        {
+            "Feature": "hla_match_dqb1_mean",
+            "Importance": 0.0025303116999566555
+        },
+        {
+            "Feature": "compatibility_dri_age_fn",
+            "Importance": 0.0025266411248594522
+        },
+        {
+            "Feature": "hla_std",
+            "Importance": 0.0025262620765715837
+        },
+        {
+            "Feature": "compatibility_score_x_conditioning_intensity_numeric",
+            "Importance": 0.0025249153841286898
+        },
+        {
+            "Feature": "comorbidity_score_by_age_at_hct",
+            "Importance": 0.002524414798244834
+        },
+        {
+            "Feature": "age_bin_favorable_flag",
+            "Importance": 0.0025218548253178596
+        },
+        {
+            "Feature": "age_comorbidity_fn",
+            "Importance": 0.002518902998417616
+        },
+        {
+            "Feature": "age_at_hct_squared",
+            "Importance": 0.002516166539862752
+        },
+        {
+            "Feature": "donor_age_x_dri_quantile",
+            "Importance": 0.0025155881885439157
+        },
+        {
+            "Feature": "karnofsky_risk_adjusted",
+            "Importance": 0.0025150675792247057
+        },
+        {
+            "Feature": "FK_MMF_interaction",
+            "Importance": 0.002510001650080085
+        },
+        {
+            "Feature": "age_compatibility_fn",
+            "Importance": 0.0025095518212765455
+        },
+        {
+            "Feature": "graft_type",
+            "Importance": 0.002507003489881754
+        },
+        {
+            "Feature": "dqb1_low_interaction",
+            "Importance": 0.002506277058273554
+        },
+        {
+            "Feature": "hla_mismatch_score",
+            "Importance": 0.0025061212945729494
+        },
+        {
+            "Feature": "age_at_hct_x_dri_numeric",
+            "Importance": 0.0025040849577635527
+        },
+        {
+            "Feature": "hla_match_dqb1_high",
+            "Importance": 0.0025035112630575895
+        },
+        {
+            "Feature": "hla_high_res_10",
+            "Importance": 0.0025011817924678326
+        },
+        {
+            "Feature": "rheum_issue",
+            "Importance": 0.002497321693226695
+        },
+        {
+            "Feature": "compatibility_score_x_disease_control_factor",
+            "Importance": 0.002496566390618682
+        },
+        {
+            "Feature": "comorbidity_age",
+            "Importance": 0.002494439948350191
+        },
+        {
+            "Feature": "disease_control_factor_x_conditioning_intensity_numeric_inverse",
+            "Importance": 0.002491510007530451
+        },
+        {
+            "Feature": "age_at_hct_x_treatment_intensity",
+            "Importance": 0.0024907058104872704
+        },
+        {
+            "Feature": "age_depletion_risk",
+            "Importance": 0.0024847653694450855
+        },
+        {
+            "Feature": "karnofsky_score_x_treatment_intensity",
+            "Importance": 0.002477084519341588
+        },
+        {
+            "Feature": "treatment_intensity",
+            "Importance": 0.0024735992774367332
+        },
+        {
+            "Feature": "optimal_disease_status",
+            "Importance": 0.0024635368026793003
+        },
+        {
+            "Feature": "age_at_hct",
+            "Importance": 0.002461064839735627
+        },
+        {
+            "Feature": "hla_match_c_low",
+            "Importance": 0.002458062721416354
+        },
+        {
+            "Feature": "dri_numeric_x_dri_age",
+            "Importance": 0.002458050614222884
+        },
+        {
+            "Feature": "conditioning_intensity_rituximab",
+            "Importance": 0.00245665549300611
+        },
+        {
+            "Feature": "donor_by_age_at_hct",
+            "Importance": 0.002453703200444579
+        },
+        {
+            "Feature": "compatibility_score_squared",
+            "Importance": 0.0024371780455112457
+        },
+        {
+            "Feature": "hla_match_dqb1_low",
+            "Importance": 0.0024331114254891872
+        },
+        {
+            "Feature": "karnofsky_score_x_dri_age",
+            "Importance": 0.0024299868382513523
+        },
+        {
+            "Feature": "compatibility_score_x_treatment_intensity",
+            "Importance": 0.0024258787743747234
+        },
+        {
+            "Feature": "donor_age_x_disease_control_factor",
+            "Importance": 0.0024237260222434998
+        },
+        {
+            "Feature": "is_monotherapy",
+            "Importance": 0.0024172288831323385
+        },
+        {
+            "Feature": "hla_high_res_6",
+            "Importance": 0.0024134963750839233
+        },
+        {
+            "Feature": "pre_post_2015",
+            "Importance": 0.0024100933223962784
+        },
+        {
+            "Feature": "compatibility_treatment_intensity_fn",
+            "Importance": 0.002401600359007716
+        },
+        {
+            "Feature": "hla_high_low_ratio",
+            "Importance": 0.002400722587481141
+        },
+        {
+            "Feature": "hla_low_res_6",
+            "Importance": 0.0023857986088842154
+        },
+        {
+            "Feature": "treatment_intensity_x_conditioning_intensity_numeric",
+            "Importance": 0.002380858641117811
+        },
+        {
+            "Feature": "has_combination",
+            "Importance": 0.0023731624241918325
+        },
+        {
+            "Feature": "tce_match",
+            "Importance": 0.0023597832769155502
+        },
+        {
+            "Feature": "dri_comorbidity_x_disease_control_factor",
+            "Importance": 0.002344359178096056
+        },
+        {
+            "Feature": "graft_dri_score_is_2",
+            "Importance": 0.002333988668397069
+        },
+        {
+            "Feature": "compatibility_score_x_dri_quantile",
+            "Importance": 0.002327433554455638
+        },
+        {
+            "Feature": "hla_high_res_8",
+            "Importance": 0.0022994528990238905
+        },
+        {
+            "Feature": "depletion_comorbidity_interaction",
+            "Importance": 0.0022958223707973957
+        },
+        {
+            "Feature": "depletion_age_interaction",
+            "Importance": 0.0022924519143998623
+        },
+        {
+            "Feature": "karnofsky_deviation",
+            "Importance": 0.002290185308083892
+        },
+        {
+            "Feature": "conditioning_intensity_numeric_squared",
+            "Importance": 0.002267156494781375
+        },
+        {
+            "Feature": "hla_min",
+            "Importance": 0.0021979305893182755
+        },
+        {
+            "Feature": "karnofsky_score",
+            "Importance": 0.00219075963832438
+        },
+        {
+            "Feature": "treatment_intensity_x_dri_quantile",
+            "Importance": 0.0021903114393353462
+        },
+        {
+            "Feature": "has_MTX",
+            "Importance": 0.0021744025871157646
+        },
+        {
+            "Feature": "treatment_intensity_squared",
+            "Importance": 0.002174372086301446
+        },
+        {
+            "Feature": "cmv_donor",
+            "Importance": 0.002115814480930567
+        },
+        {
+            "Feature": "is_complex",
+            "Importance": 0.0020660217851400375
+        },
+        {
+            "Feature": "sex_donor",
+            "Importance": 0.0020351752173155546
+        },
+        {
+            "Feature": "sex_recipient",
+            "Importance": 0.0019428605446591973
+        },
+        {
+            "Feature": "depletion_risk_interaction",
+            "Importance": 0.0019299685955047607
+        },
+        {
+            "Feature": "dri_numeric",
+            "Importance": 0.001881229691207409
+        },
+        {
+            "Feature": "is_standard_risk",
+            "Importance": 0.001423669746145606
+        },
+        {
+            "Feature": "age_quantile",
+            "Importance": 0.0011424422264099121
+        },
+        {
+            "Feature": "is_high_risk",
+            "Importance": 0.000930033391341567
+        },
+        {
+            "Feature": "dri_quantile",
+            "Importance": 0.0
+        },
+        {
+            "Feature": "dri_quantile_squared",
+            "Importance": 0.0
+        },
+        {
+            "Feature": "dri_score_is_2",
+            "Importance": 0.0
+        },
+        {
+            "Feature": "age_bin_high_risk_flag",
+            "Importance": 0.0
+        },
+        {
+            "Feature": "is_experimental",
+            "Importance": 0.0
+        },
+        {
+            "Feature": "is_depletion_based",
+            "Importance": 0.0
+        }
+    ]
+}
